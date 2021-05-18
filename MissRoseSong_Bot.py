@@ -12,7 +12,7 @@ import os
 from config import Config
 
 bot = Client(
-    'MissRose',
+    'missqueen',
     bot_token = Config.BOT_TOKEN,
     api_id = Config.API_ID,
     api_hash = Config.API_HASH
@@ -29,15 +29,15 @@ def time_to_seconds(time):
 ## Commands --------------------------------
 @bot.on_message(filters.command(['start']))
 def start(client, message):
-    darkprince = f'👋 Hello @{message.from_user.username}\n\n [😌🍀🤚](https://telegra.ph/file/86cc2e654b1157f12b94f.jpg)\n I\'m Rose, I can upload songs from YouTube. Type /a song name:'
+    darkprince = f'👋 Hello @{message.from_user.username}\n\n [😌🍀🤚](https://telegra.ph//file/1e287e9abfcaf3e669bdf.jpg)\n I\'m miss queen, I can upload songs.my father is @Humangasor. Type /a song name:'
     message.reply_text(
         text=darkprince, 
         quote=False,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('Owner🎸', url='https://t.me/mr_dark_prince'),
-                    InlineKeyboardButton('Source💿', url='https://github.com/Mr-Dark-Prince/MissRose')
+                    InlineKeyboardButton('Owner🎸', url='https://t.me/Humangasor'),
+                    InlineKeyboardButton('main gruop', url='https://t.me/SL_MEDIA_TECH_GRUOP')
                 ]
             ]
         )
