@@ -1,0 +1,16 @@
+---
+application:
+  name: "missrose"
+  project: "Bot"
+  organization: "QoveryCommunity"
+  storage:
+  - name: "Miss rose"
+    size: "100"
+    type: "ssd"
+    mount_point: "/mnt/Miss "
+routers:
+- name: "main-missrose"
+  routes:
+  - application_name: "missrose"
+    paths:
+    - "/*"
