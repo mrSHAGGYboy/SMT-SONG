@@ -29,7 +29,7 @@ def time_to_seconds(time):
 ## Commands --------------------------------
 @bot.on_message(filters.command(['start']))
 def start(client, message):
-    darkprince = f'👋 Hello @{message.from_user.username}\n\n [🤚](https://telegra.ph/file/cc470adfbb306ce83ca6f.jpg)\n I\'m DMG-X Song Bot, I can upload songs. Devolope By Pahan Harsh & ARCH. Type /song song name:'
+    darkprince = f'👋 Hello @{message.from_user.username}\n\n [🤚](https://telegra.ph//file/cc470adfbb306ce83ca6f.jpg)\n I\'m DMG-X Song Bot, I can upload songs. Devolope By Pahan Harsh & ARCH. Type /song song name:'
     message.reply_text(
         text=darkprince, 
         quote=False,
