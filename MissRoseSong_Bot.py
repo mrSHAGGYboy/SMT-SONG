@@ -36,8 +36,8 @@ def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('Owner🎸', url='https://t.me/Humangasor'),
-                    InlineKeyboardButton('main gruop', url='https://t.me/SL_MEDIA_TECH_GRUOP')
+                    InlineKeyboardButton('Group', url='https://t.me/Dark_music_Gangex_2021'),
+                    InlineKeyboardButton('Channel', url='https://t.me/Darkmusicgangx')
                 ]
             ]
         )
