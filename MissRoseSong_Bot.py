@@ -30,9 +30,9 @@ def time_to_seconds(time):
 ## Commands --------------------------------
 @bot.on_message(filters.command(['start']))
 def start(client, message):
-    darkprince = f'👋 Hello @{message.from_user.username}\n\n [😌🍀🤚](https://telegra.ph/file/0875dcabb9c63ee357b79.jpg)\n I\'m SHAGGY SONG DOWNLOADER, I can upload songs from YouTube! made by SL MEADIA TECH. Type /song song name:'
+    mrSHAGGYboy = f'👋 Hello @{message.from_user.username}\n\n [😌🍀🤚](https://telegra.ph/file/0875dcabb9c63ee357b79.jpg)\n I\'m SHAGGY SONG DOWNLOADER, I can upload songs from YouTube! made by SL MEADIA TECH. Type /song song name:'
     message.reply_text(
-        text=@mrSHAGGYboy, 
+        text=mrSHAGGYboy, 
         quote=False,
         reply_markup=InlineKeyboardMarkup(
             [
