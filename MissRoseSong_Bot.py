@@ -10,6 +10,28 @@ import requests
 
 import os
 from config import Config
+from __future__ import unicode_literals
+
+import asyncio
+import math
+import os
+import time
+from random import randint
+from urllib.parse import urlparse
+
+import aiofiles
+import aiohttp
+import requests
+import wget
+import youtube_dl
+from pyrogram import Client, filters
+from pyrogram.errors import FloodWait, MessageNotModified
+from pyrogram.types import Message
+from youtube_search import YoutubeSearch
+from youtubesearchpython import SearchVideos
+
+from DaisyXMusic.config import DURATION_LIMIT
+from DaisyXMusic.modules.play import arq
 
 bot = Client(
     'missqueen',
