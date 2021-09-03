@@ -30,15 +30,15 @@ def time_to_seconds(time):
 ## Commands --------------------------------
 @bot.on_message(filters.command(['start']))
 def start(client, message):
-    mrSHAGGYboy = f'👋 Hello @{message.from_user.username}\n\n [😌🍀🤚](https://telegra.ph/file/0875dcabb9c63ee357b79.jpg)\n I\'m SHAGGY SONG DOWNLOADER, I can upload songs from YouTube! made by SL MEADIA TECH. Type /song song name:'
+    mrSHAGGYboy = f'👋 Hello @{message.from_user.username}\n\n [😌🍀🤚](https://telegra.ph/file/ce07f40ce6e4e4268257a.jpg)\n I\'m SMT SONG BOT, I can upload songs from YouTube! made by SL MEADIA TECH. Type /song song name:'
     message.reply_text(
         text=mrSHAGGYboy, 
         quote=False,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('Owner🎸', url='https://t.me/mrSHAGGYboy'),
-                    InlineKeyboardButton('Group💿', url='https://t.me/SL_MEDIA_TECH_GRUOP')
+                    InlineKeyboardButton('Channel😋', url='https://t.me/sl_media_tech'),
+                    InlineKeyboardButton('Group😋', url='https://t.me/SL_MEDIA_TECH_GRUOP')
                 ]
             ]
         )
