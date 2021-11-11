@@ -52,15 +52,15 @@ def time_to_seconds(time):
 ## Commands --------------------------------
 @bot.on_message(filters.command(['start']))
 def start(client, message):
-    darkprince = f'👋 Hello @{message.from_user.username}\n\n [🤚](https://telegra.ph//file/cc470adfbb306ce83ca6f.jpg)\n I\'m DMG-X Song Bot, I can upload songs. Devolope By Pahan Harsh & ARCH. Type /song song name:'
+      mrSHAGGYboy = f'👋 Hello @{message.from_user.username}\n\n [😌🍀🤚](https://telegra.ph/file/ce07f40ce6e4e4268257a.jpg)\n I\'m SMT SONG BOT, I can upload songs from YouTube! made by  @mrSHAGGYboy. Type /song song name:'
     message.reply_text(
-        text=darkprince, 
+        text=mrSHAGGYboy, 
         quote=False,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('Group', url='https://t.me/Dark_music_Gangex_2021'),
-                    InlineKeyboardButton('Channel', url='https://t.me/Darkmusicgangx')
+                    InlineKeyboardButton('Channel😋', url='https://t.me/sl_media_tech'),
+                    InlineKeyboardButton('Group😋', url='https://t.me/SL_MEDIA_TECH_GRUOP')
                 ]
             ]
         )
