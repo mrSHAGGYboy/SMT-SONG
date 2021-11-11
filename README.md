@@ -4,12 +4,10 @@
 </p>
 
 
-# MissRose
+# SMT SONG
 💡Telegram bot for Downloading Songs From YouTube 📺 
 
-![logo](https://telegra.ph/file/86cc2e654b1157f12b94f.jpg)
-# Reach me on Telegram [Rose 🎶](https://t.me/missrosesong_bot)
-
+![logo](https://telegra.ph/file/ce07f40ce6e4e4268257a.jpg)
 
 ## 💡 Deploy This Bot To Heroku ❓️
 ```
@@ -18,3 +16,4 @@
 3 Create an app on Heroku and connect heroku with your github repository 
 4 Manual Deploy 
 ```
+#
